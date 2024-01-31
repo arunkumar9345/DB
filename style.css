@@ -1,0 +1,51 @@
+body {
+    font-family: 'Arial', sans-serif;
+    /* background-color: #6fdc2c; */
+    background-image:url('./theme.jpg');
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background-color: #696a64;
+    box-shadow: 10 10 10px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+}
+
+.cent {
+    text-align: center;
+}
+
+.te,
+.pa,.se,.me,.ke {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+#but,
+#but1,
+#but2,
+#but3 {
+    padding: 10px;
+    background-color: #41d846;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+#but:hover,
+#but1:hover,
+#but2:hover,
+#but3:hover {
+    background-color: #c92121;
+}
+.head{
+    color: #35fb08;
+    font-size: 30px;
+}
